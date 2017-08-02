@@ -4,13 +4,17 @@ import { NgModule, Component } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
+import { StarComponent } from './star/star.component';
+import { LikeComponent } from './like/like.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
-    CourseComponent
+    CourseComponent,
+    StarComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule

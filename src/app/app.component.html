@@ -1,5 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
-hhh
+<like [likesCount]="tweet.totalLikes" [isActive]="tweet.isLiked"> </like>
+
+<br>
+<br>
+
+
+<star [isFavorite]="true"  (eventSendFromThisComponement)="on_EventSendFromThisComponement_Triggered()" ></star>
 
 <courses> </courses>
 
